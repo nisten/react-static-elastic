@@ -1,0 +1,899 @@
+{
+  "entry": "/Users/jag/work/react-static-elastic/src/index.tsx",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "plugins": [
+    {
+      "location": "/Users/jag/work/react-static-elastic/node_modules/react-static-plugin-typescript",
+      "nodeLocation": "/Users/jag/work/react-static-elastic/node_modules/react-static-plugin-typescript/node.api.js",
+      "options": {},
+      "hooks": {}
+    },
+    {
+      "location": "/Users/jag/work/react-static-elastic",
+      "options": {},
+      "hooks": {}
+    }
+  ],
+  "paths": {
+    "ROOT": "/Users/jag/work/react-static-elastic",
+    "LOCAL_NODE_MODULES": "/Users/jag/work/react-static-elastic/node_modules/react-static/node_modules",
+    "SRC": "/Users/jag/work/react-static-elastic/src",
+    "PAGES": "/Users/jag/work/react-static-elastic/src/pages",
+    "DIST": "/Users/jag/work/react-static-elastic/dist",
+    "ASSETS": "/Users/jag/work/react-static-elastic/dist",
+    "PLUGINS": "/Users/jag/work/react-static-elastic/plugins",
+    "TEMP": "/Users/jag/work/react-static-elastic/tmp",
+    "BUILD_ARTIFACTS": "/Users/jag/work/react-static-elastic/artifacts",
+    "PUBLIC": "/Users/jag/work/react-static-elastic/public",
+    "NODE_MODULES": "/Users/jag/work/react-static-elastic/node_modules",
+    "EXCLUDE_MODULES": "/Users/jag/work/react-static-elastic/node_modules",
+    "PACKAGE": "/Users/jag/work/react-static-elastic/package.json",
+    "HTML_TEMPLATE": "/Users/jag/work/react-static-elastic/dist/index.html",
+    "STATIC_DATA": "/Users/jag/work/react-static-elastic/dist/staticData"
+  },
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "routes": [
+    {
+      "path": "404",
+      "component": "src/pages/404.tsx",
+      "isPage": true,
+      "originalPath": "404",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/404.tsx"
+    },
+    {
+      "path": "about",
+      "component": "src/pages/about.tsx",
+      "isPage": true,
+      "originalPath": "about",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/about.tsx"
+    },
+    {
+      "path": "blog",
+      "component": "src/pages/blog.tsx",
+      "isPage": true,
+      "originalPath": "blog",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/blog.tsx"
+    },
+    {
+      "path": "blog/post/1",
+      "component": "src/containers/Post",
+      "originalPath": "post/1",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/2",
+      "component": "src/containers/Post",
+      "originalPath": "post/2",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/3",
+      "component": "src/containers/Post",
+      "originalPath": "post/3",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/4",
+      "component": "src/containers/Post",
+      "originalPath": "post/4",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/5",
+      "component": "src/containers/Post",
+      "originalPath": "post/5",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/6",
+      "component": "src/containers/Post",
+      "originalPath": "post/6",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/7",
+      "component": "src/containers/Post",
+      "originalPath": "post/7",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/8",
+      "component": "src/containers/Post",
+      "originalPath": "post/8",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/9",
+      "component": "src/containers/Post",
+      "originalPath": "post/9",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/10",
+      "component": "src/containers/Post",
+      "originalPath": "post/10",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/11",
+      "component": "src/containers/Post",
+      "originalPath": "post/11",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/12",
+      "component": "src/containers/Post",
+      "originalPath": "post/12",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/13",
+      "component": "src/containers/Post",
+      "originalPath": "post/13",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/14",
+      "component": "src/containers/Post",
+      "originalPath": "post/14",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/15",
+      "component": "src/containers/Post",
+      "originalPath": "post/15",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/16",
+      "component": "src/containers/Post",
+      "originalPath": "post/16",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/17",
+      "component": "src/containers/Post",
+      "originalPath": "post/17",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/18",
+      "component": "src/containers/Post",
+      "originalPath": "post/18",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/19",
+      "component": "src/containers/Post",
+      "originalPath": "post/19",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/20",
+      "component": "src/containers/Post",
+      "originalPath": "post/20",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/21",
+      "component": "src/containers/Post",
+      "originalPath": "post/21",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/22",
+      "component": "src/containers/Post",
+      "originalPath": "post/22",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/23",
+      "component": "src/containers/Post",
+      "originalPath": "post/23",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/24",
+      "component": "src/containers/Post",
+      "originalPath": "post/24",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/25",
+      "component": "src/containers/Post",
+      "originalPath": "post/25",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/26",
+      "component": "src/containers/Post",
+      "originalPath": "post/26",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/27",
+      "component": "src/containers/Post",
+      "originalPath": "post/27",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/28",
+      "component": "src/containers/Post",
+      "originalPath": "post/28",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/29",
+      "component": "src/containers/Post",
+      "originalPath": "post/29",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/30",
+      "component": "src/containers/Post",
+      "originalPath": "post/30",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/31",
+      "component": "src/containers/Post",
+      "originalPath": "post/31",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/32",
+      "component": "src/containers/Post",
+      "originalPath": "post/32",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/33",
+      "component": "src/containers/Post",
+      "originalPath": "post/33",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/34",
+      "component": "src/containers/Post",
+      "originalPath": "post/34",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/35",
+      "component": "src/containers/Post",
+      "originalPath": "post/35",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/36",
+      "component": "src/containers/Post",
+      "originalPath": "post/36",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/37",
+      "component": "src/containers/Post",
+      "originalPath": "post/37",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/38",
+      "component": "src/containers/Post",
+      "originalPath": "post/38",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/39",
+      "component": "src/containers/Post",
+      "originalPath": "post/39",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/40",
+      "component": "src/containers/Post",
+      "originalPath": "post/40",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/41",
+      "component": "src/containers/Post",
+      "originalPath": "post/41",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/42",
+      "component": "src/containers/Post",
+      "originalPath": "post/42",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/43",
+      "component": "src/containers/Post",
+      "originalPath": "post/43",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/44",
+      "component": "src/containers/Post",
+      "originalPath": "post/44",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/45",
+      "component": "src/containers/Post",
+      "originalPath": "post/45",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/46",
+      "component": "src/containers/Post",
+      "originalPath": "post/46",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/47",
+      "component": "src/containers/Post",
+      "originalPath": "post/47",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/48",
+      "component": "src/containers/Post",
+      "originalPath": "post/48",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/49",
+      "component": "src/containers/Post",
+      "originalPath": "post/49",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/50",
+      "component": "src/containers/Post",
+      "originalPath": "post/50",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/51",
+      "component": "src/containers/Post",
+      "originalPath": "post/51",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/52",
+      "component": "src/containers/Post",
+      "originalPath": "post/52",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/53",
+      "component": "src/containers/Post",
+      "originalPath": "post/53",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/54",
+      "component": "src/containers/Post",
+      "originalPath": "post/54",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/55",
+      "component": "src/containers/Post",
+      "originalPath": "post/55",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/56",
+      "component": "src/containers/Post",
+      "originalPath": "post/56",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/57",
+      "component": "src/containers/Post",
+      "originalPath": "post/57",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/58",
+      "component": "src/containers/Post",
+      "originalPath": "post/58",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/59",
+      "component": "src/containers/Post",
+      "originalPath": "post/59",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/60",
+      "component": "src/containers/Post",
+      "originalPath": "post/60",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/61",
+      "component": "src/containers/Post",
+      "originalPath": "post/61",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/62",
+      "component": "src/containers/Post",
+      "originalPath": "post/62",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/63",
+      "component": "src/containers/Post",
+      "originalPath": "post/63",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/64",
+      "component": "src/containers/Post",
+      "originalPath": "post/64",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/65",
+      "component": "src/containers/Post",
+      "originalPath": "post/65",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/66",
+      "component": "src/containers/Post",
+      "originalPath": "post/66",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/67",
+      "component": "src/containers/Post",
+      "originalPath": "post/67",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/68",
+      "component": "src/containers/Post",
+      "originalPath": "post/68",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/69",
+      "component": "src/containers/Post",
+      "originalPath": "post/69",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/70",
+      "component": "src/containers/Post",
+      "originalPath": "post/70",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/71",
+      "component": "src/containers/Post",
+      "originalPath": "post/71",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/72",
+      "component": "src/containers/Post",
+      "originalPath": "post/72",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/73",
+      "component": "src/containers/Post",
+      "originalPath": "post/73",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/74",
+      "component": "src/containers/Post",
+      "originalPath": "post/74",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/75",
+      "component": "src/containers/Post",
+      "originalPath": "post/75",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/76",
+      "component": "src/containers/Post",
+      "originalPath": "post/76",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/77",
+      "component": "src/containers/Post",
+      "originalPath": "post/77",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/78",
+      "component": "src/containers/Post",
+      "originalPath": "post/78",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/79",
+      "component": "src/containers/Post",
+      "originalPath": "post/79",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/80",
+      "component": "src/containers/Post",
+      "originalPath": "post/80",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/81",
+      "component": "src/containers/Post",
+      "originalPath": "post/81",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/82",
+      "component": "src/containers/Post",
+      "originalPath": "post/82",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/83",
+      "component": "src/containers/Post",
+      "originalPath": "post/83",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/84",
+      "component": "src/containers/Post",
+      "originalPath": "post/84",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/85",
+      "component": "src/containers/Post",
+      "originalPath": "post/85",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/86",
+      "component": "src/containers/Post",
+      "originalPath": "post/86",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/87",
+      "component": "src/containers/Post",
+      "originalPath": "post/87",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/88",
+      "component": "src/containers/Post",
+      "originalPath": "post/88",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/89",
+      "component": "src/containers/Post",
+      "originalPath": "post/89",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/90",
+      "component": "src/containers/Post",
+      "originalPath": "post/90",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/91",
+      "component": "src/containers/Post",
+      "originalPath": "post/91",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/92",
+      "component": "src/containers/Post",
+      "originalPath": "post/92",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/93",
+      "component": "src/containers/Post",
+      "originalPath": "post/93",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/94",
+      "component": "src/containers/Post",
+      "originalPath": "post/94",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/95",
+      "component": "src/containers/Post",
+      "originalPath": "post/95",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/96",
+      "component": "src/containers/Post",
+      "originalPath": "post/96",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/97",
+      "component": "src/containers/Post",
+      "originalPath": "post/97",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/98",
+      "component": "src/containers/Post",
+      "originalPath": "post/98",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/99",
+      "component": "src/containers/Post",
+      "originalPath": "post/99",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/100",
+      "component": "src/containers/Post",
+      "originalPath": "post/100",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "/",
+      "component": "src/pages/index.tsx",
+      "isPage": true,
+      "originalPath": "/",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/index.tsx"
+    }
+  ],
+  "templates": [
+    "../src/pages/404.tsx",
+    "../src/pages/about.tsx",
+    "../src/pages/blog.tsx",
+    "../src/containers/Post",
+    "../src/pages/index.tsx"
+  ]
+}

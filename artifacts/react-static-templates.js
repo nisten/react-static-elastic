@@ -1,11 +1,23 @@
 
+import universal, { setHasBabelPlugin } from '/Users/jag/work/react-static-elastic/node_modules/react-universal-component/dist/index.js'
 
 
-import t_0 from '../src/pages/404.tsx'
-import t_1 from '../src/pages/about.tsx'
-import t_2 from '../src/pages/blog.tsx'
-import t_3 from '../src/containers/Post'
-import t_4 from '../src/pages/index.tsx'
+setHasBabelPlugin()
+
+const universalOptions = {
+  loading: () => null,
+  error: props => {
+    console.error(props.error);
+    return <div>An error occurred loading this page's template. More information is available in the console.</div>;
+  },
+}
+
+const t_0 = universal(import('../src/pages/404.tsx'), universalOptions)
+const t_1 = universal(import('../src/pages/about.tsx'), universalOptions)
+const t_2 = universal(import('../src/pages/blog.tsx'), universalOptions)
+const t_3 = universal(import('../src/containers/Post'), universalOptions)
+const t_4 = universal(import('../src/pages/index.tsx'), universalOptions)
+
 
 // Template Map
 export default {
